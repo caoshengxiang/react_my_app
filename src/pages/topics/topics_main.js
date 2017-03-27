@@ -4,18 +4,13 @@
 
 import React from 'react'
 
-const Home = React.createClass({
+export default React.createClass({
     render() {
         return (
             <div>
 
-                <div className="content">
-                    home
-                </div>
+                <div>Topic</div>
             </div>
         )
-
     }
 })
-
-export default Home;
